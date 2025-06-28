@@ -5,11 +5,11 @@ function updateQR(event) {
   QRElement.innerHTML = null;
 
   const qrcode = new QRCode(QRElement, {
-    width: 500,
-    height: 500,
+    width: 300,
+    height: 300,
   });
 
   qrcode.makeCode(TextElement.value);
 }
 
-console.log("poop", updateQR);
+// console.log("poop", updateQR);
